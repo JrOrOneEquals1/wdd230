@@ -1,0 +1,23 @@
+footer {
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+header {
+    font-size: 25px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+body {
+    font-size:20px;
+}
+
+table {
+    width: 100%;
+}
