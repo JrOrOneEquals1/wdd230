@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33.33% 33.34% 33.33%;
+    justify-content: center;
+}
+
+section {
+    width: 75%;
+    display: grid;
+    justify-self: center;
+}
+
+h1, img, p {
+    display: grid;
+    justify-self: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 901px) {
+    main {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    main {
+        grid-template-columns: 100%;
+    }
+}
