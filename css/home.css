@@ -1,23 +1,33 @@
 footer {
     font-size: 12px;
-    padding: 10px;
-    text-align: center;
-    background-color: aquamarine;
-    border-radius: 20px;
 }
 
 header {
-    font-size: 25px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: center;
+    font-size: 20px;
+}
+
+header, footer {
     text-align: center;
     background-color: aquamarine;
     border-radius: 20px;
     padding: 10px;
 }
 
-body {
-    font-size:20px;
+header, footer, main {
+    display: grid;
+    justify-content: center;
+    width: 80vmax;
 }
 
-table {
-    width: 100%;
+html {
+    display: grid;
+    justify-content: center;
+}
+
+body {
+    font-size: 18px;
+    max-width: 1000px;
 }
