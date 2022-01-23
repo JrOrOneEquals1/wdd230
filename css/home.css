@@ -3,9 +3,8 @@ footer {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    justify-content: center;
+    display: flex;
+    align-items: center;
     font-size: 20px;
 }
 
@@ -16,18 +15,14 @@ header, footer {
     padding: 10px;
 }
 
-header, footer, main {
+header, footer, main, body {
     display: grid;
     justify-content: center;
-    width: 80vmax;
+    width: 90vmax;
 }
 
 html {
     display: grid;
     justify-content: center;
-}
-
-body {
     font-size: 18px;
-    max-width: 1000px;
 }
