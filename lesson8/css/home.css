@@ -1,0 +1,56 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+	--back: #7FB9C2;
+    --back2: #628CA6;
+    --foredark: hsla(0,0%,10%,1);
+	--forelight: black;
+	--border: #A8B1B6;
+	--borderlight: hsl(0,0%,33%);
+	--shadow: #6D94AB;
+	--zebra1: #E7F0ED;
+	--zebra2: #E7FFED;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 10px 10px 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+.passed, th {
+	background-color: var(--back2);
+    color: white;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra2);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra1);
+}
