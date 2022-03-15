@@ -1,0 +1,181 @@
+.banner {
+    margin: calc(-50vw + 50%);
+    width: 100vw;
+    text-align: center;
+    background-color: palegoldenrod;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: calc(-50vw + 50%);
+}
+
+header {
+    display: grid;
+    padding: 0px;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    width: 90vw;
+    grid-template-columns: auto;
+}
+
+.mainEle {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: calc(-50vw + 50% + 13vw);
+    margin-top: 30px;
+    background-color: darkcyan;
+}
+
+.fa {
+    width: 30px !important;
+    height: 24px !important;
+    padding-top: 4px;
+    text-decoration: none;
+}
+
+#expanded {
+    display: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    margin-right: 15px;
+    color: white;
+}
+
+header #head-text {
+    display: flex;
+    background-color: #1A80B6;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-top: 10px;
+}
+
+#header-one-line {
+    width: 675px;
+}
+
+#smallNav {
+    display: grid;
+    justify-self: right;
+}
+
+#bigNav {
+    display: none;
+    font-size: 20px;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-self: right;
+}
+
+#rexburgStart {
+    background-image: url("../images/rexburgPic.jpg");
+    margin-left: calc(-50vw + 50% + 13vw);
+    max-width: 600px;
+    height: 300px;
+}
+
+#rexburgText {
+    padding: 20px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+#rexburgButton {
+    margin: 40px;
+    font-size: 20px;
+    background-color: red;
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: -5px 5px 10px black;
+}
+
+#rexburgButton:hover {
+    background-color: orangered;
+}
+
+#bigNav a {
+    width: calc((100vw - 600px) / 4);
+    text-align: center;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+}
+
+#bigNav a:hover {
+    color: orangered;
+}
+
+#expanded {
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid darkgray;
+    z-index: 0;
+    display: none;
+    font-size: 20px;
+    justify-self: right;
+}
+
+#expanded a {
+    width: calc((100vw - 600px) / 4);
+    text-align: center;
+    color: white;
+    height: 30px;
+    text-decoration: none;
+}
+
+#expanded a:hover {
+    color: orangered;
+}
+
+#logo {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+#head-text a {
+    color: white;
+    text-decoration: none;
+}
+
+#hamburger {
+    display: flex;
+    border: 1px solid #DADADA;
+    width: 80%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    display: flex;
+    background-color: #1A80B6;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    width: 100vw;
+    margin-top: 40px;
+    margin-left: calc(-50vw + 50%);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: orangered;
+}

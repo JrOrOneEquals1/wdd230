@@ -4,28 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Page</title>
-    <link rel="stylesheet" href="./css/home.css">
+    <meta description="Cameron's Chamber of Commerce site for BYU-I">
+    <title>Rexburg Chamber of Commerce</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="./css/large.css">
+    <link rel="stylesheet" media="screen and (max-width: 1199px) and (min-width: 800px)" href="./css/medium.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./js/main.js"></script>
 </head>
-<header>
+<body>
+<header id="header">
+    <section id="announcements">
+
+    </section>
     <section id="head-text">
-        Call Us Today! 1.208.999.2311 | <a href="mailto:info@rexburgcoc.com">info@rexburgcoc.com</a>
-        <div id='bigNav'>
-            <a>Home</a>
-        </div>
+        <span id="header-one-line"><span id='header-date'></span>Rexburg Chamber of Commerce</span>
         <!-- <button id="hamburger" onclick="hamburgerClick()"><p>Go to...</p></button> -->
+        <div id='bigNav'>
+            <a href="./">Discover</a>
+            <a href="./">Directory</a>
+            <a href="./">Join</a>
+            <a href="./">Contact</a>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+        </div>
+        <div id="smallNav">
+            <div class="hamburg fa fa-bars" onclick="expand()"></div>
+            <div id="expanded">
+                <a href="./">Discover</a>
+                <a href="./">Directory</a>
+                <a href="./">Join</a>
+                <a href="./">Contact</a>
+                <span style="margin-left: 40px;">
+                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                </span>
+            </div>
+        </div>
     </section>
     <section id="logo">
         <img width="125px" src="./images/Rexburg_CoC.png">
     </section>
 </header>
 <main>
-<body>
-    Nunc velit leo, rhoncus id venenatis sit amet, egestas et mi. Proin quis turpis egestas, molestie augue et, maximus massa. Pellentesque eget varius tortor, dictum mattis libero. Suspendisse vitae placerat velit, at lobortis quam. Duis ipsum odio, imperdiet non laoreet nec, hendrerit in lorem. Sed non diam eget dui malesuada interdum ut vitae libero. Pellentesque nec sagittis nibh. Donec volutpat odio convallis magna hendrerit, accumsan consequat ex pharetra. Duis vel ornare dolor. Cras eu lobortis felis. Praesent sem lacus, imperdiet a auctor eget, malesuada viverra arcu. Vivamus pharetra velit vel odio ornare, a ornare metus tristique. Aliquam id risus augue. Ut blandit ultricies justo in hendrerit. Vivamus odio sapien, viverra eu neque a, convallis aliquam sapien. Pellentesque blandit mauris lacus, eget commodo orci ultricies vitae.
-</body>
+    <section class="mainEle" id="rexburgStart"><p id="rexburgText">Welcome to Rexburg</p><button id="rexburgButton" onclick="nothingYet()">Join the Chamber!</button></section>
+    <section class="mainEle"><h2>Ribbon Cutting</h2><h3>The Diamond Shack</h3><p>Join us for the grand opening of the Diamond Shack, Thursday at 1:00 PM.</p></section>
+    <section class="mainEle"><h2>Weather</h2></section>
+    <section class="mainEle"><h2>News Release</h2></section>
+    <section class="mainEle"><h2>Thankful Transport</h2></section>
+    <section class="mainEle"><h2>Ribbon Cutting</h2></section>
 </main>
+</body>
 </html>

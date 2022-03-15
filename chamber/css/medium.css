@@ -1,0 +1,28 @@
+#bigNav {
+    display: none;
+}
+
+#smallNav {
+    display: grid;
+}
+
+#expanded {
+    display: none;
+}
+
+#bigNav a {
+    width: calc((100vw - 550px));
+}
+
+main {
+    grid-template-columns: auto auto;
+}
+
+.mainEle {
+    width: calc(40vw);
+    margin-left: calc(5vw);
+}
+
+#rexburgStart {
+    margin-left: calc(5vw);
+}
