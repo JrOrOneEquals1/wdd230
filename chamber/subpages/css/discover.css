@@ -1,0 +1,11 @@
+img {
+    width: 45vw;
+}
+
+#logopic:hover {
+    width: 45vw;
+}
+
+img:hover {
+    width: 50vw;
+}

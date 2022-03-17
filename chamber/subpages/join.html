@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description="Cameron's Chamber of Commerce site for BYU-I">
     <title>Rexburg Chamber of Commerce</title>
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="./css/large.css">
-    <link rel="stylesheet" media="screen and (max-width: 1199px) and (min-width: 800px)" href="./css/medium.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/join.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
 </head>
 <body>
 <header id="header">
@@ -23,9 +23,9 @@
     <section id="head-text">
         <span id="header-one-line"><span id='header-date'></span>Rexburg Chamber of Commerce</span>
         <div id='bigNav'>
-            <a href="./subpages/discover.html">Discover</a>
+            <a href="../">Home</a>
+            <a href="./discover.html">Discover</a>
             <a href="./">Directory</a>
-            <a href="./">Join</a>
             <a href="./">Contact</a>
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
             <a href="https://www.twitter.com" class="fa fa-twitter"></a>
@@ -33,9 +33,9 @@
         <div id="smallNav">
             <div class="hamburg fa fa-bars" onclick="expand()"></div>
             <div id="expanded">
-                <a href="./subpages/discover.html">Discover</a>
+                <a href="../">Home</a>
+                <a href="./discover.html">Discover</a>
                 <a href="./">Directory</a>
-                <a href="./">Join</a>
                 <a href="./">Contact</a>
                 <span style="margin-left: 40px;">
                     <a href="https://www.facebook.com" class="fa fa-facebook"></a>
@@ -45,16 +45,36 @@
         </div>
     </section>
     <section id="logo">
-        <img width="125px" src="./images/Rexburg_CoC.png">
+        <img width="125px" src="../images/Rexburg_CoC.png">
     </section>
 </header>
 <main>
-    <section class="mainEle" id="rexburgStart"><p id="rexburgText">Welcome to Rexburg</p><a href="./subpages/join.html"><button id="rexburgButton" onclick="nothingYet()">Join the Chamber!</button></a></section>
-    <section class="mainEle"><h2>Ribbon Cutting</h2><h3>The Diamond Shack</h3><p>Join us for the grand opening of the Diamond Shack, Thursday at 1:00 PM.</p></section>
-    <section class="mainEle"><h2>Weather</h2></section>
-    <section class="mainEle"><h2>News Release</h2></section>
-    <section class="mainEle"><h2>Thankful Transport</h2></section>
-    <section class="mainEle"><h2>Ribbon Cutting</h2></section>
+    <form id="form" onsubmit="redirect()">
+        <input id="fName" placeholder="First Name" required name="firstName" type="text">
+        <br>
+        <input placeholder="Last Name" required name="lastName" type="text">
+        <br>
+        <input placeholder="Job Title" name="jobTitle" type="text">
+        <br>
+        <input placeholder="Email: example@random.org" type="email" required name="email">
+        <br>
+        <input placeholder="Phone Number" type="tel" required name="phone">
+        <br>
+        <input placeholder="Business Name" type="text" required name="businessName">
+        <br>
+        <select type="text" required name="membership">
+            <option>Membership Level</option>
+            <option value="np">Non-Profit: Free</option>
+            <option value="bronze">Bronze: $10/mo</option>
+            <option value="silver">Silver: $$25/mo</option>
+            <option value="gold">Gold: $50/mo</option>
+        </select>
+        <br>
+        <textarea placeholder="Business Description" name="description" maxlength="255"></textarea>
+        <input hidden name="datetime" id="datetime">
+        <br>
+        <input type="submit">
+    </form>
 </main>
 </body>
 </html>
