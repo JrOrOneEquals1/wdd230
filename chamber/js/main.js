@@ -1,4 +1,4 @@
-days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 date = new Date();
@@ -15,7 +15,7 @@ window.onload = function () {
     if(weekday == 'Monday' || weekday == 'Tuesday') {
         var banner = document.createElement("span");
         banner.innerHTML = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
-        banner.setAttribute('class', 'banner')
+        banner.setAttribute('class', 'banner');
         document.getElementById('announcements').appendChild(banner);
     }
     if(document.getElementById('announcements').innerText == "") {
