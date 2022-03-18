@@ -7,7 +7,6 @@ window.onload = function () {
     var body = document.getElementsByTagName("body")[0];
     var footer = document.createElement("footer");
     var weekday = days[date.getDay()];
-    weekday = 'Monday'
     body.appendChild(footer);
     var text = document.createElement("p");
     text.innerHTML = `&copy; ${date.getFullYear()} | Cameron Roberts | Idaho | BYUI Online Learning | Last Updated: ${document.lastModified} | Call Us Today! 1.208.999.2311 |&nbsp;<a href="mailto:info@rexburgcoc.com">info@rexburgcoc.com</a>`;
