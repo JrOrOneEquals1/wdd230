@@ -2,6 +2,10 @@ var topNum = 1;
 var topList = [];
 var topListEle = [];
 
+window.onload = function () {
+    document.getElementById('addChapter').addEventListener('click', addChapter);
+}
+
 function addChapter() {
     var books = {"1 Nephi": 22, "2 Nephi": 33, "Jacob": 7, "Enos": 1, "Jarom": 1, "Omni": 1, "Words of Mormon": 1, "Mosiah": 29, "Alma": 63, "Helaman": 16, "3 Nephi": 30, "4 Nephi": 1, "Mormon": 9, "Ether": 15, "Moroni": 10}
     var text = document.getElementById("favchap").value;
