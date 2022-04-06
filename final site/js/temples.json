@@ -4,27 +4,55 @@
         "id": "rexburg",
         "announced": "December 12th, 2003",
         "groundbreak": "July 30th, 2005",
-        "dedicated": "February 10th, 2008"
+        "dedicated": "February 10th, 2008",
+        "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+        "phone": "(1) 208-656-0880",
+        "services": "offer clothing rentals, and have a nearby distribution center",
+        "ordinance": "by appointment",
+        "session": "by appointment",
+        "closure": "Monday, 11 April 2022 - Monday, 4 July 2022",
+        "email": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng"
     },
     {
         "temple": "Boise, Idaho",
         "id": "boise",
         "announced": "March 31st, 1982",
         "groundbreak": "December 18th, 1982",
-        "dedicated": "May 25th, 1984"
+        "dedicated": "May 25th, 1984",
+        "address": "1211 S Cole Rd Boise ID 83709-1871 United States",
+        "telephone": "(1) 208-322-4422",
+        "services": "have a nearby distribution center",
+        "ordinance": "by appointment",
+        "session": "by appointment",
+        "closure": "Monday, 2 May 2022 - Monday, 16 May 2022",
+        "email": "https://www.churchofjesuschrist.org/temples/details/boise-idaho-temple?lang=eng"
     },
     {
         "temple": "Idaho Falls, Idaho",
         "id": "idahoFalls",
         "announced": "March 3rd, 1937",
         "groundbreak": "December 19th, 1939",
-        "dedicated": "September 23rd, 1945"
+        "dedicated": "September 23rd, 1945",
+        "address": "1000 Memorial Dr Idaho Falls ID 83402-3410 United States",
+        "telephone": "(1) 208-522-7669",
+        "services": "offer clothing rentals, and have a nearby distribution center",
+        "ordinance": "by appointment",
+        "session": "by appointment",
+        "closure": "Tuesday, 28 June 2022 - Monday, 11 July 2022",
+        "email": "https://www.churchofjesuschrist.org/temples/details/idaho-falls-idaho-temple?lang=eng"
     },
     {
         "temple": "Twin Falls, Idaho",
         "id": "twinFalls",
         "announced": "October 2nd, 2004",
         "groundbreak": "April 15th, 2006",
-        "dedicated": "August 24th, 2008"
+        "dedicated": "August 24th, 2008",
+        "address": "1405 Eastland Dr N Twin Falls ID 83301 United States",
+        "telephone": "(1) 208-736-7070",
+        "services": "have a nearby distribution center",
+        "ordinance": "by appointment",
+        "session": "by appointment",
+        "closure": "Monday, 12 September 2022 - Monday, 26 September 2022",
+        "email": "https://www.churchofjesuschrist.org/temples/details/twin-falls-idaho-temple?lang=eng"
     }
 ]

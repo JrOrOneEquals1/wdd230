@@ -10,7 +10,7 @@ body {
 
 main {
     display: grid;
-    justify-content: center;
+    justify-items: center;
 }
 
 form {
@@ -19,6 +19,7 @@ form {
 }
 
 footer {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     background-color: lightblue;
@@ -58,7 +59,7 @@ a:hover {
     align-items: center;
     min-height: 100px;
     padding: 10px;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .email {
@@ -68,6 +69,31 @@ a:hover {
 
 .email:hover {
     color: #555;
+}
+
+.fa {
+    display: flex;
+    padding: 0px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
 
 #bignav a {
@@ -111,11 +137,22 @@ a:hover {
 }
 
 #forecastTable {
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    justify-items: center;
+    background-color: gray;
 }
 
 #forecastTable td {
-    width: 100%;
+    width: 33.33%;
+    text-align: center;
+}
+
+#tableHeader {
+    background-color: #ff0;
+}
+
+#info {
+    background-color: #ff9;
+}
+
+tbody {
+    margin: 0;
 }
