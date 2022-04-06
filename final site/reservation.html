@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="js/main.js"></script>
-    <title>Temple Inn & Suites</title>
+    <title>Temples</title>
 </head>
 <body>
     <header>
@@ -17,34 +17,30 @@
             <h1>Temple Inn & Suites</h1>
         </div>
         <nav id="bignav">
+            <a href="./index.html">Home</a>
             <a href="./temple.html">Temple</a>
-            <a href="./reservation.html">Reservation</a>
             <a href="./">Services</a>
             <a href="./">Reception</a>
             <a href="./">Temple Missionary</a>
         </nav>
     </header>
     <main>
-        <div class="content">
-            <p>Make a Hotel Reservation Now!</p>
-            <a id="reservation" href="./">Click here to make a Reservation</a>
-        </div>
-        <div class="content">
-            <table>
-                <tr>
-                    <td><h2>The Meridian, Idaho Temple</h2></td>
-                </tr>
-                <tr>
-                    <td>The Meridian Temple was announced on April 2nd, 2011. Construction started about 3 years later, on August 23rd, 2014, and it was dedicate about 3 years after that on November 19th, 2017.</td>
-                </tr>
-            </table>
-        </div>
-        <div class="content" id="weather">
-            <h2>Current Weather:</h2>
-        </div>
-        <div class="content" id="forecast">
-            <h2>Weather Forecast:</h2>
-        </div>
+        <form id="form" onsubmit="redirect()">
+            <select type="text" required name="membership">
+                <option>Stay Location</option>
+                <option value="rexburg">Rexburg, Idaho</option>
+                <option value="boise">Boise, Idaho</option>
+                <option value="idahoFalls">Idaho Falls, Idaho</option>
+                <option value="twinFalls">Twin Falls, Idaho</option>
+            </select>
+            <input placeholder="Date for Reservation" required name="date" type="text">
+            <input placeholder="Full Name" required name="fullName" type="text">
+            <input placeholder="Email: example@random.org" type="email" required name="email">
+            <input placeholder="Phone Number" type="tel" required name="phone">
+            <input placeholder="Home State/Country" type="text" name="home">
+            <textarea placeholder="Comments/Questions" name="description" maxlength="255"></textarea>
+            <input type="submit">
+        </form>
     </main>
     <footer>
         <div>
