@@ -31,6 +31,22 @@ a.icon {
     height: 30px;
 }
 
+.content {
+    width: 90%;
+}
+
+.smallMap {
+    display: block;
+}
+
+.mediumMap {
+    display: none;
+}
+
+.largeMap {
+    display: none;
+}
+
 #bignav {
     display: none;
 }

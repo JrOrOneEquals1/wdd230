@@ -6,3 +6,15 @@ main {
 .form {
     grid-column: 1/3;
 }
+
+.smallMap {
+    display: none;
+}
+
+.mediumMap {
+    display: none;
+}
+
+.largeMap {
+    display: block;
+}
