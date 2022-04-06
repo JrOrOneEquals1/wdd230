@@ -1,0 +1,30 @@
+[
+    {
+        "temple": "Rexburg, Idaho",
+        "id": "rexburg",
+        "announced": "December 12th, 2003",
+        "groundbreak": "July 30th, 2005",
+        "dedicated": "February 10th, 2008"
+    },
+    {
+        "temple": "Boise, Idaho",
+        "id": "boise",
+        "announced": "March 31st, 1982",
+        "groundbreak": "December 18th, 1982",
+        "dedicated": "May 25th, 1984"
+    },
+    {
+        "temple": "Idaho Falls, Idaho",
+        "id": "idahoFalls",
+        "announced": "March 3rd, 1937",
+        "groundbreak": "December 19th, 1939",
+        "dedicated": "September 23rd, 1945"
+    },
+    {
+        "temple": "Twin Falls, Idaho",
+        "id": "twinFalls",
+        "announced": "October 2nd, 2004",
+        "groundbreak": "April 15th, 2006",
+        "dedicated": "August 24th, 2008"
+    }
+]
