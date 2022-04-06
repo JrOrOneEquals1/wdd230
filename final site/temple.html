@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/large.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/small.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <title>Temples</title>
@@ -25,6 +25,14 @@
             <a href="./reservation.html">Reservation</a>
             <a href="./services.html">Services</a>
         </nav>
+        <div class="smallnav">
+            <a href="./index.html">Home</a>
+            <a href="./reservation.html">Reservation</a>
+            <a href="./services.html">Services</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="expandSmallNav()">
+          <i class="fa fa-bars"></i>
+        </a>
     </header>
     <main>
         <div class="content" id="rexburg"></div>

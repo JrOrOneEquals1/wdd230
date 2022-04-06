@@ -71,3 +71,7 @@ function setClickEvents() {
         }
     });
 }
+
+function expandSmallNav() {
+    $('.smallnav').toggleClass('smallnavOpen')
+}

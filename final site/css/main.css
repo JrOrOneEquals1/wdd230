@@ -72,6 +72,8 @@ a:hover {
 }
 
 .fa {
+    position: absolute;
+    top: 0px;
     display: flex;
     padding: 0px;
     font-size: 30px;
@@ -87,16 +89,29 @@ a:hover {
 }
 
 .fa-facebook {
+    right: 0px;
     background: #3B5998;
     color: white;
 }
 
 .fa-twitter {
+    right: 30px;
     background: #55ACEE;
     color: white;
 }
 
-#bignav a {
+.icon {
+    display: none;
+}
+
+.smallnav {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #0000FF10;
+}
+
+#bignav a, .smallnav a {
     display: flex;
     text-decoration: none;
     color: darkblue;
@@ -106,7 +121,7 @@ a:hover {
     height: 80px;
 }
 
-#bignav a:hover {
+#bignav a:hover, .smallnav a:hover {
     color: orange;
     background-color: #0000FF50;
 }

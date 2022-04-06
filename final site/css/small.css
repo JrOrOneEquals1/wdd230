@@ -1,0 +1,36 @@
+a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    color: white;
+    right: 0;
+    top: 0;
+}
+
+.fa-facebook {
+    right: 30px;
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    right: 60px;
+    background: #55ACEE;
+    color: white;
+}
+
+.smallnavOpen {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+#bignav {
+    display: none;
+}
