@@ -37,7 +37,7 @@
     <main>
         <div class="content form">
             <h2>Make a reservation now!</h2>
-            <form id="form" onsubmit="redirect()">
+            <form id="form" onsubmit="submit()">
                 <select type="text" required name="membership">
                     <option>Stay Location</option>
                     <option value="rexburg">Rexburg, Idaho</option>
@@ -45,7 +45,7 @@
                     <option value="idahoFalls">Idaho Falls, Idaho</option>
                     <option value="twinFalls">Twin Falls, Idaho</option>
                 </select>
-                <input placeholder="Date for Reservation" required name="date" type="text">
+                <input placeholder="Date for Reservation" required name="date" type="date">
                 <input placeholder="Full Name" required name="fullName" type="text">
                 <input placeholder="Email: example@random.org" type="email" required name="email">
                 <input placeholder="Phone Number" type="tel" required name="phone">

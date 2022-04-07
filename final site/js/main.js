@@ -76,3 +76,7 @@ function setClickEvents() {
 function expandSmallNav() {
     $('.smallnav').toggleClass('smallnavOpen')
 }
+
+function submit() {
+    console.log('Thanks for making a reservation! Not that a typical customer would ever see this message..')
+}
