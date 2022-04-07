@@ -2,13 +2,14 @@ const date = new Date();
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 window.onload = function () {
-    // try {
-    //     navigator.geolocation.getCurrentPosition(setLatLon);
-    // }
-    // catch {
+    try {
+        navigator.geolocation.getCurrentPosition(setLatLon);
+    }
+    catch {
         var position = {coords: {latitude: 51.5, longitude: 0.1}}
         setLatLon(position);
-    // }
+    }
+    document.getElementById('lastModified').innerHTML = `Last Updated: ${document.lastModified}`;
 }
 
 async function setLatLon(position) {
